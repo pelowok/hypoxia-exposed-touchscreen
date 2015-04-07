@@ -1,0 +1,11 @@
+﻿Altered tween styles for nav slider
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+# On branch build-107
+# Changes to be committed:
+#	modified:   LehmanMilletTouchscreen.fla
+#	modified:   LehmanMilletTouchscreen.swf
+#	modified:   com/mynameiszak/SlideNav.as
+#
+
