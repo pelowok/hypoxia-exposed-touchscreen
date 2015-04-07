@@ -70,20 +70,19 @@
 			
 			if(navPrev){
 				
-				var navprev:slideNav = new slideNav();
+				var navprev:SlideNav = new SlideNav();
 				
 				this.addChild(navprev);
 				
 				navprev.x = 0;
 				navprev.y = 280;
-				
-				navprev.addEventListener(MouseEvent.CLICK, REPORT);
+				navprev.transition = "left";
 				
 			}
 			
 			if(navNext){
 				
-				var navnext:slideNav = new slideNav();
+				var navnext:SlideNav = new SlideNav();
 				
 				this.addChild(navnext);
 				
@@ -91,7 +90,7 @@
 				navnext.y = 1080;
 				navnext.rotation = 180;
 				
-				navnext.addEventListener(MouseEvent.CLICK, REPORT);
+				navnext.transition = "right";
 				
 			}
 			
