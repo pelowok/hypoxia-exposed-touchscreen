@@ -3,12 +3,15 @@
 	import flash.display.MovieClip;
 	import flash.events.MouseEvent;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	import com.greensock.TweenLite;
 	import com.greensock.easing.*;
 	
 	public class SlideNav extends MovieClip {
 		
 =======
+=======
+>>>>>>> build-107
 	import flash.events.TouchEvent;
 	import com.greensock.TweenLite;
 	import com.greensock.easing.*;
@@ -17,6 +20,9 @@
 		
 		
 		
+<<<<<<< HEAD
+>>>>>>> build-107
+=======
 >>>>>>> build-107
 		public var clicktarget:MovieClip;
 		public var transition:String;
@@ -24,16 +30,22 @@
 		public function SlideNav() {
 			
 <<<<<<< HEAD
+<<<<<<< HEAD
 			this.addEventListener(MouseEvent.MOUSE_OVER, AlphaUp);
 			this.addEventListener(MouseEvent.MOUSE_OUT, AlphaDown);
 			this.addEventListener(MouseEvent.CLICK, TransitionToTarget);
 			this.addEventListener(MouseEvent.RELEASE_OUTSIDE, AlphaDown);
 =======
+=======
+>>>>>>> build-107
 			//this.addEventListener(MouseEvent.MOUSE_OVER, AlphaUp);
 			//this.addEventListener(MouseEvent.MOUSE_OUT, AlphaDown);
 			this.addEventListener(MouseEvent.CLICK, TransitionToTarget_mouse);
 			this.addEventListener(TouchEvent.TOUCH_TAP, TransitionToTarget);
 			//this.addEventListener(MouseEvent.RELEASE_OUTSIDE, AlphaDown);
+<<<<<<< HEAD
+>>>>>>> build-107
+=======
 >>>>>>> build-107
 			
 		}
@@ -55,7 +67,11 @@
 		}
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		private function TransitionToTarget(e:MouseEvent):void{
+=======
+		private function TransitionToTarget(e:TouchEvent):void{
+>>>>>>> build-107
 =======
 		private function TransitionToTarget(e:TouchEvent):void{
 >>>>>>> build-107
@@ -65,15 +81,21 @@
 			switch(transition){
 				case "left":
 <<<<<<< HEAD
+<<<<<<< HEAD
 					TweenLite.to(mc, 1.5, {x:(mc.x + 1920), ease:Back.easeInOut});
 				break;
 				case "right":
 					TweenLite.to(mc, 1.5, {x:(mc.x - 1920), ease:Back.easeInOut});
 =======
+=======
+>>>>>>> build-107
 					TweenLite.to(mc, 1.5, {x:(mc.x + 1920), ease:Circ.easeInOut});
 				break;
 				case "right":
 					TweenLite.to(mc, 1.5, {x:(mc.x - 1920), ease:Circ.easeInOut});
+<<<<<<< HEAD
+>>>>>>> build-107
+=======
 >>>>>>> build-107
 				break;
 				default:
@@ -81,10 +103,13 @@
 				break;
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			
 			
 			
 =======
+=======
+>>>>>>> build-107
 				
 		}
 		
@@ -104,6 +129,9 @@
 				break;
 			}
 				
+<<<<<<< HEAD
+>>>>>>> build-107
+=======
 >>>>>>> build-107
 		}
 
